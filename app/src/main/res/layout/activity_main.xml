@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/ButtonStyle"
+            android:layout_alignParentStart="true"
+            android:layout_margin="5dp"
+
+
+            android:tag="00"
+            android:text="A" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/ButtonStyle"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn1"
+            android:tag="01"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/ButtonStyle"
+
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn2"
+            android:tag="02"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/ButtonStyle"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn3"
+            android:tag="03"
+            android:text="d" />
+
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn1"
+            android:layout_margin="5dp"
+            android:tag="10"
+            android:text="F" />
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn3"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn1"
+            android:tag="11"
+            android:text="g" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn3"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn2"
+            android:tag="12"
+            android:text="h" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn4"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn3"
+            android:tag="13"
+            android:text="i" />
+
+        <Button
+            android:id="@+id/btn11"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn6"
+            android:layout_margin="5dp"
+            android:tag="20"
+            android:text="k" />
+
+        <Button
+            android:id="@+id/btn12"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn7"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn1"
+            android:tag="21"
+            android:text="l" />
+
+        <Button
+            android:id="@+id/btn13"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn8"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn2"
+            android:tag="22"
+            android:text="m" />
+
+        <Button
+            android:id="@+id/btn14"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn9"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn3"
+            android:tag="23"
+            android:text="n" />
+
+        <Button
+            android:id="@+id/btn16"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn11"
+            android:layout_margin="5dp"
+            android:tag="30"
+            android:text="p" />
+
+        <Button
+            android:id="@+id/btn17"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn12"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn1"
+            android:tag="31"
+            android:text="q" />
+
+        <Button
+            android:id="@+id/btn18"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn13"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn2"
+            android:tag="32"
+            android:text="r" />
+
+        <Button
+            android:id="@+id/btn19"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn14"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/btn3"
+            android:tag="33"
+            android:text="" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
